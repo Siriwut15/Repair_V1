@@ -39,7 +39,7 @@ height: 100%;
       <div class="col-md-9 col-lg-6 col-xl-5">
         <img src="admin/dist/img/Helpdesk-V3.png" 
           class="img-fluid" alt="Sample image">
-      </div> ytliyt
+      </div> 
 
       
       
