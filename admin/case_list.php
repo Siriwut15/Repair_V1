@@ -76,7 +76,7 @@
             $seconds = $seconds_elapsed - ($hours * 3600) - ($minutes * 60);
 
             // แสดงผลลัพธ์
-            echo " " . $hours . " ชั่วโมง " . $minutes . " นาที ";
+            echo " " . $duration->format('%H ชั่วโมง %i นาที %s วินาที');
 
             ?>
 

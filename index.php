@@ -94,7 +94,7 @@ height: 100%;
     
   
   <div style="text-align:center;width:100%;">
-  "<font style='font-size:25px' color='white'>ระบบแจ้งซ่อม Helpdesk Support</font>";
+  <font style='font-size:25px' color='white'>ระบบแจ้งซ่อม Helpdesk Support</font>
   </div>
     
     <!-- Centerคำสั่งเปลี่ยนสีและเอาไว้ขยับข้อความไว้ตรงกลาง -->
