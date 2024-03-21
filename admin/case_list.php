@@ -88,7 +88,7 @@
             <td>
                 <?php if ($row['status_id'] == 1) { ?>
                 <a class="btn btn-success btn-sm"
-                    href="index.php?act=add&case_id=<?php echo $row['case_id']; ?>">เลือกช่าง</a>
+                    href="index.php?act=add&case_id=<?php echo $row['case_id']; ?>">เลือกช่าง1111</a>
                 <?php }elseif ($row['status_id'] == 2) { ?>
                 <a class="btn btn-danger btn-sm">มอบงานแล้ว</a>
                 <?php } ?>
