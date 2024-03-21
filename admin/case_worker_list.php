@@ -10,7 +10,7 @@
        $row_st3 = mysqli_fetch_array($result3);
 
        $query_status4 = "SELECT count(case_id) as cid FROM tbl_case WHERE status_id = 4 AND tec_id = $tec_id";
-       $result4 = mysqli_query($con, $query_status3);
+       $result4 = mysqli_query($con, $query_status4);
        $row_st4 = mysqli_fetch_array($result4);
        //echo $row_st2['cid'];
        //echo $query_status2;

@@ -76,7 +76,11 @@
             $seconds = $seconds_elapsed - ($hours * 3600) - ($minutes * 60);
 
             // แสดงผลลัพธ์
-            echo " " . $hours . " ชั่วโมง " . $minutes . " นาที ";
+            if ($row['status_id'] == 3 || $row['status_id'] == 1 || $row['status_id'] == 2) {
+                echo "";
+            }else{
+                echo " " . $hours . " ชั่วโมง " . $minutes . " นาที ";
+            }
 
             ?>
 
