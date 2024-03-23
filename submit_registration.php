@@ -26,7 +26,9 @@ $sql = "INSERT INTO tbl_login (username, u_email, password, u_tel) VALUES ('$use
 
 // ทำการเพิ่มข้อมูล
 if ($conn->query($sql) === TRUE) {
-    echo "บันทึกข้อมูลเรียบร้อยแล้ว";
+    header("refresh:2; url=index.php");
+    exit(0); 
+    echo"บันทึกข้อมูลเรียบร้อยแล้ว";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
