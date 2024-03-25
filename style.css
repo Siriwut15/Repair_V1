@@ -39,11 +39,11 @@ input[type="text"] {
 }
 
 .register-form button {
-    padding: 15px;
-    background-color: #6aff00;
+    padding: 20px;
+    background-color: #001aff;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 

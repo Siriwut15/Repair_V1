@@ -17,12 +17,13 @@ if ($conn->connect_error) {
 
 // รับค่าจากฟอร์ม
 $username = $_POST['username'];
-$email = $_POST['email'];
 $password = $_POST['password'];
+$email = $_POST['email'];
 $tel = $_POST['tel'];
+$user_level = $_POST['user_level'];
 
 // เขียนคำสั่ง SQL เพื่อเพิ่มข้อมูลลงในฐานข้อมูล
-$sql = "INSERT INTO tbl_login (username, u_email, password, u_tel) VALUES ('$username', '$email', '$password', '$tel')";
+$sql = "INSERT INTO members (username, password, email, tel, user_level) VALUES ('$username', '$password', '$email', '$tel', '$user_level')";
 
 // ทำการเพิ่มข้อมูล
 if ($conn->query($sql) === TRUE) {
