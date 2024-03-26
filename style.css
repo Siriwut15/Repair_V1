@@ -46,6 +46,13 @@ input[type="text"] {
     border-radius: 10px;
     cursor: pointer;
 }
+.custom-button {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: #00ff40;
+    color: #ff0000;
+}
+
 
 .register-form button:hover {
     background-color: #ffa200;

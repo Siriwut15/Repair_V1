@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 25, 2024 at 04:14 PM
+-- Generation Time: Mar 26, 2024 at 05:46 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -41,10 +41,7 @@ CREATE TABLE `members` (
 --
 
 INSERT INTO `members` (`id`, `username`, `password`, `email`, `tel`, `user_level`) VALUES
-(1, 'fern', '123456', 'fernhansa@fern', '56789', ''),
-(2, 'non', '1234', 'nonza@non', '5678', 'employee'),
-(4, 'bew', '1234', 'bewna@bew', '999', ''),
-(5, 'benz', '1234', 'benza@ben', '277', 'worker');
+(2, 'non', '1234', 'nonza@non', '5678', 'employee');
 
 -- --------------------------------------------------------
 
@@ -112,14 +109,14 @@ INSERT INTO `tbl_login` (`user_id`, `username`, `password`, `user_status`, `user
 (2, 'worker01', 'worker01', 1, 'worker', 'บิว', 'IT', '272', 'worker01@gmail.com', '1710173980.png'),
 (3, 'worker02', 'worker02', 1, 'worker', 'เบนซ์', 'IT', '288', 'benz@gmail.com', '1710174147.png'),
 (4, 'worker03', 'worker03', 1, 'worker', 'ต้น', 'IT', '289', 'Ton@gmail.com', '1710174180.png'),
-(5, 'worker04', 'worker04', 1, 'worker', 'โซ่', 'IT', '290', 'So@gmail.com', '1710224146.png'),
+(5, 'worker04', 'worker04', 1, 'worker', 'โซ่', 'IT', '290', 'So@gmail.com', 'worker.png'),
 (6, 'emp01', 'emp01', 1, 'employee', 'Bew', 'Eiei', '833', 'employee1@hotmail.com', NULL),
 (9, 'emp03', 'emp03', 1, 'employee', 'ขี้เกียจทำเอง', 'รอ it มาทำให้', '811', 'emp03@gmail.com', NULL),
 (10, 'emp04', 'emp04', 1, 'employee', 'Bew', 'Siriwut', '999', 'Bew@gmail.com', NULL),
 (11, 'emp5', 'emp5', 1, 'employee', 'employee', 'employee', 'employee', 'employee112@hotmail.com', NULL),
 (18, 'benz', '123456', 1, 'employee', 'benz', 'zaza', '222', 'benz@benz', NULL),
 (19, 'bew', 'bew15', 0, '', '', '', '9999', 'siriwutna5553@gmail.com', NULL),
-(21, 'benz', '1234', 1, 'worker', 'ben', 'IT', '277', 'benza@ben', NULL);
+(21, 'benz', '1234', 1, 'worker', 'ben', 'IT', '277', 'benza@ben', 'worker.png');
 
 -- --------------------------------------------------------
 
@@ -178,7 +175,7 @@ ALTER TABLE `tbl_status`
 -- AUTO_INCREMENT for table `members`
 --
 ALTER TABLE `members`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดี', AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'ไอดี', AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `tbl_case`

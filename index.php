@@ -83,9 +83,10 @@ height: 100%;
               style="padding-left: 1.5rem; padding-right: 1.5rem;">Login</button>
           </div>
           <div class="text-center text-lg-start mt-4 pt-2">
-            <button  style="padding-left: 0.5rem; padding-right: 0.5rem;" class="btn btn-Secondary btn-block">
-             <a href="register.html" target="_blank"> Register </button>
-          </div>
+         <button style="padding-left: 0.0rem; padding-right: 0.0rem;">
+        <a href="register.html" class="btn btn-danger btn-block" target="_blank" >Register</a></button>
+</div>
+
         </form>
       </div>
     </div>
