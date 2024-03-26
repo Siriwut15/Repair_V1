@@ -79,13 +79,13 @@ height: 100%;
           </div>
        
           <div class="text-center text-lg-start mt-4 pt-2">
-            <button type="submit" class="btn btn-primary btn-block"
-              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+            <button type="submit" class="btn btn-info btn-block"
+              style="padding-left: 1.5rem; padding-right: 1.5rem;">Login</button>
           </div>
           <div class="text-center text-lg-start mt-4 pt-2">
-            <button style="padding-left: 2.5rem; padding-right: 2.5rem;"> <a href="register.html" target="_blank"> Register </button>
+            <button  style="padding-left: 0.5rem; padding-right: 0.5rem;" class="btn btn-Secondary btn-block">
+             <a href="register.html" target="_blank"> Register </button>
           </div>
-
         </form>
       </div>
     </div>

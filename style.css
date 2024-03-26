@@ -9,10 +9,10 @@ body {
 }
 
 .register-wrapper {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 100px;
     border-radius: 40px;
-    box-shadow: 0 0 50px rgb(246, 255, 0);
+    box-shadow: 0 0 50px rgb(255, 0, 0);
 }
 
 .register-form {
@@ -48,5 +48,5 @@ input[type="text"] {
 }
 
 .register-form button:hover {
-    background-color: #FFFF00;
+    background-color: #ffa200;
 }
