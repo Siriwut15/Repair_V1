@@ -30,7 +30,7 @@
          <?php echo $row['case_id'];; ?>
         </td>
          <td>
-         <?php echo $row['name_case']; ?>
+         <?php echo $row['name_case']; ?> 
         </td>
          <td>
          <?php echo $row['u_name'].' '.$row['u_lastname'] ?>

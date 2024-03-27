@@ -79,12 +79,12 @@ height: 100%;
           </div>
        
           <div class="text-center text-lg-start mt-4 pt-2">
-            <button type="submit" class="btn btn-info btn-block"
+            <button type="submit" class="btn btn-success btn-block"
               style="padding-left: 1.5rem; padding-right: 1.5rem;">Login</button>
           </div>
           <div class="text-center text-lg-start mt-4 pt-2">
          <button style="padding-left: 0.0rem; padding-right: 0.0rem;">
-        <a href="register.html" class="btn btn-danger btn-block" target="_blank" >Register</a></button>
+        <a href="register.html" class="btn btn-link btn-block" target="_blank" >Register</a></button>
 </div>
 
         </form>
@@ -94,7 +94,7 @@ height: 100%;
 
   <center>
   <div
-    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 " style="background-color:#ff5722">
+    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 " style="background-color:#6C7B8B">
     
   
   <div style="text-align:center;width:100%;">
